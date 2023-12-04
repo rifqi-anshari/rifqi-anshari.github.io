@@ -1,0 +1,342 @@
+:root {
+    color-scheme: light only!important;
+}
+
+body *{
+    font-family: poppins;
+}
+
+h2 *{
+    font-family: Arial !important;
+}
+/* -----------------NEW-------------- */
+
+/* Background Belakang*/
+.bg-body{
+    background-color: #E6E6FA;
+}
+
+/* Background Warna Biru */
+.bg-biru{
+    background-color: #7d2ae8;
+}
+
+/* Icon Green */
+.icon-black{
+    color:#505050;
+}
+.icon-black:hover{
+    color:#000000;
+}
+.icon-black.focus,.icon-black:focus{
+    color:#505050;
+}
+.icon-black.disabled,.icon-black:disabled{
+    color:#000000;
+}
+.icon-black:not(:disabled):not(.disabled).active,.icon-black:not(:disabled):not(.disabled):active,.show>.icon-black.dropdown-toggle{
+    color:#000000;
+}
+
+/* Icon Green */
+.icon-green{
+    color:#00c700;
+}
+.icon-green:hover{
+    color:#107e10;
+}
+.icon-green.focus,.icon-green:focus{
+    color:#00c700;
+}
+.icon-green.disabled,.icon-green:disabled{
+    color:#107e10;
+}
+.icon-green:not(:disabled):not(.disabled).active,.icon-green:not(:disabled):not(.disabled):active,.show>.icon-green.dropdown-toggle{
+    color:#107e10;
+}
+
+.padding-global{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.border-card{
+    border-radius: 15px;
+}
+
+/* Warna Garis Tepi Card / Border */
+.border-content{
+    border: none !important;
+    border-radius: 15px;
+}
+
+.border-portofolio{
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Background Transparant */
+.bg-none{
+    background-color: initial;
+    background-image: none;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-position: initial;
+}
+
+/* Card Tentang Saya */
+.card-about{
+    /* background-color: #ffffff; */
+    /* background-color: #7d2ae8; */
+    border-radius: 15px;
+    /* border-color: #b8a7cf; */
+    /* border-width: 4px; */
+    /* border: none !important; */
+}
+
+.card-name{
+    border-width: 7px !important;
+    border-color: #7d2ae8 !important;
+}
+
+.card-biografi{
+    background-color: #81D8D0;
+    border-radius: 15px;
+    border: none !important;
+}
+
+/* Efek Shadow Pada Card */
+.card-shadow{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/* Efek Shadow Pada Profil */
+.card-shadow-profil{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/* Background konten */
+.bg-konten{
+    background-color: #dcd7e2;
+}
+
+.bg-caption{
+    background-color: #dbdbdb;
+}
+
+/* Badge Warna Ungu */
+.badge-ungu{
+    background-color: #7d2ae8;
+}
+
+/* Background Warna Ungu */
+.ungu{
+    background-color: #7d2ae8;
+}
+
+/* Bar Warna Ungu */
+.bg-bar{
+    background-color: #7d2ae8;
+}
+
+/* Button Ungu */
+.btn-skill{
+    background-color: #6f26ce;
+    color: white;
+}
+
+.btn-ungu{
+    color:#fff;
+    background-color:#7d2ae8;
+    border-color:#7d2ae8}
+.btn-ungu:hover{
+    color:#fff;
+    background-color:#6f26ce;
+    border-color:#6a24c5}
+.btn-ungu.focus,.btn-ungu:focus{
+    color:#fff;
+    background-color:#6f26ce;
+    border-color:#6a24c5;
+    box-shadow:0 0 0 .2rem #8b47e485}
+.btn-ungu.disabled,.btn-ungu:disabled{
+    color:#fff;
+    background-color:#7d2ae8;
+    border-color:#7d2ae8}
+.btn-ungu:not(:disabled):not(.disabled).active,.btn-ungu:not(:disabled):not(.disabled):active,.show>.btn-ungu.dropdown-toggle{
+    color:#fff;
+    background-color:#6a24c5;
+    border-color:#005cbf}
+.btn-ungu:not(:disabled):not(.disabled).active:focus,.btn-ungu:not(:disabled):not(.disabled):active:focus,.show>.btn-ungu.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem #8b47e485}
+
+
+/* Button Pink */
+.btn-pink{
+    color:#fff;
+    background-color:#e82aa9;
+    border-color:#e82aa9}
+.btn-pink:hover{
+    color:#fff;
+    background-color:#ce2696;
+    border-color:#c5248f}
+.btn-pink.focus,.btn-pink:focus{
+    color:#fff;
+    background-color:#ce2696;
+    border-color:#c5248f;
+    box-shadow:0 0 0 .2rem #e447bd85}
+.btn-pink.disabled,.btn-pink:disabled{
+    color:#fff;
+    background-color:#e82aa9;
+    border-color:#e82aa9}
+.btn-pink:not(:disabled):not(.disabled).active,.btn-pink:not(:disabled):not(.disabled):active,.show>.btn-pink.dropdown-toggle{
+    color:#fff;
+    background-color:#c5248f;
+    border-color:#005cbf}
+.btn-pink:not(:disabled):not(.disabled).active:focus,.btn-pink:not(:disabled):not(.disabled):active:focus,.show>.btn-pink.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem #e447bd85}
+
+/* Untuk letak Margin Pada Carousel Biar Kada Tehambur */
+.margin-bot-10px{
+    margin-bottom: 10px;
+    margin-top: -7px;
+}
+
+/* Font Poppins */
+.font-poppins{
+    font-family: poppins !important;
+}
+
+/* Warna Icon Panah */
+.icon-panah{
+    color:#000000;
+}
+
+.mt-konten{
+    margin-top: 50px;
+}
+
+/* margin carousel */
+.margin-tengah-konten{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* Margin Kanan Kiri Oke */
+.margin-tengah{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.margin-top-bot{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-corausel{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.card-skill{
+    background-color: #fff;
+    border-radius: 15px;
+    border: none !important;
+}
+
+.rounded-lvl{
+    border-radius: 15px;
+}
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+    border-radius: 0px;
+
+}
+
+.fa-danger{
+    color: #dc3545;
+}
+
+
+/* ------------------------ */
+.card-img-top2{
+    -ms-flex-negative:0;
+    flex-shrink:0;width:100%
+}
+.card-img,.card-img-top2{
+    border-top-left-radius:15px;;
+    border-top-right-radius:15px;
+}
+.card-img-top2{
+    border-top-right-radius:15px
+}
+.card-img-top2{
+    border-top-left-radius:15px
+}
+
+/* ----------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle {
+    padding: 15px 10px;
+    border-radius: 50%;
+    background-color: #7d2ae8;
+    color: transparent;
+    max-height: 30px;
+    z-index: 2;
+}
+
+.connecting-lines.row .col-2 {
+    align-self: stretch;
+}
+.connecting-lines.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #7d2ae8;
+    z-index: 1;
+}
+.connecting-lines.row .col-2.bottom::after {
+    height: 100%;
+    left: 50%;
+    top: 50%;
+}
+.connecting-lines.row .col-2.top::after {
+    height: 100%;
+    left: 50%;
+    bottom: 50%;
+}
+
+/* Kontak */
+.card-kontak{
+    /* background-color: #f0f0f0; */
+    border-radius: 15px;
+    border: none !important;
+}
+
+.card-skill{
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    border: none !important;
+}
+
+.footer-radius{
+    border-radius: 125px;
+    background-color: #f0f0f0;
+}
+
+.font-kecil{
+    font-size: x-small;
+}
